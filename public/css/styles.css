@@ -1,0 +1,680 @@
+.card-header.bg-dark.text-light h4{
+    color: white!important;
+}
+
+.container-fluid-perso{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-header{
+    background-color: rgba(0, 0, 0, 0.03)!important;
+}
+
+#sidenav-main{
+    z-index: 9999!important;
+}
+
+.footer{
+    background:  white!important;
+}
+
+#bloc_filtre{
+    position: absolute;
+    right: 0,
+    top: 50px;
+}
+
+#bouton_retour_accueil{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    z-index: 99999;
+}
+
+
+.page-link-disabled {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem; 
+}
+
+
+
+#widgetMesMares, #widgetMesFiches, #widgetAdminGestionnaire{
+    transition: 0.2s;
+}
+
+#widgetMesMares:hover, #widgetMesFiches:hover, #widgetAdminGestionnaire:hover{
+    transform: scale(1.03);
+}
+#widgetAdminGestionnaire .card{
+    background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    rgba(6, 63, 112, 0.3) 50%,
+    rgba(6, 63, 112, 0.3));
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .2s ease-in;
+}
+#widgetMesMares .card{
+    background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    rgba(132, 184, 38, 0.3) 50%,
+    rgba(132, 184, 38, 0.3));
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .2s ease-in;
+}
+#widgetMesFiches .card{
+    background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    rgba(189, 33, 48, 0.3) 50%,
+    rgba(189, 33, 48, 0.3));
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .2s ease-in;
+}
+#widgetMesMares .card:hover, #widgetMesFiches .card:hover, #widgetAdminGestionnaire .card:hover{
+    background-position: 0 0;
+}
+
+
+
+
+
+.enlargeable-image > .slot {
+    cursor:pointer!important;
+    transition: transform .3s;
+}
+
+.enlargeable-image> .slot:hover{
+    transform: scale(1.1);
+}
+
+.enlargeable-image .full {
+    cursor:pointer!important;
+}
+
+.enlargeable-image > .slot > img.default {
+    border-radius: 0.2em;
+}
+
+.auth-bg-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*box-shadow: inset 0 0 0 1000px rgba(31, 147, 112, 0.5);*/
+    box-shadow: inset 0 0 0 1000px rgb(132 184 38 / 20%);
+    background-image: url('../images/login.jpg');  
+}
+
+.leaflet-control-layers-toggle{
+    background-image: url('../images/layers.png')!important;
+}
+
+#profileMenu{
+    color: white;
+}
+
+.vue-notification-group{
+    z-index: 9999999!important;
+}
+
+.bg-cen-orange{
+    background-color: #DB890A;
+  /*background-color: rgb(214,121,14);
+  color: white;
+}
+.text-cen-orange{
+  /*color: rgb(214,121,14);*/
+  color: #DB890A;
+}
+
+.text-cen-bleu{
+  /*color: #3A55AD;*/
+  color: #09589D;
+}
+
+.btn-cen-orange{
+    color: white!important;
+    background-color: #DB890A!important;
+    border-color: #DB890A!important;
+/*    background-color: rgb(214,121,14)!important;
+    border-color: rgb(214,121,14)!important;*/
+}
+.btn-cen-orange:hover{
+    color: white!important;
+    background-color: rgb(173, 95, 7)!important;
+    border-color: rgb(173, 95, 7)!important;
+}
+
+.bg-cen-bleu{
+  /*background-color: #3A55AD;*/
+  background-color: #09589D;
+  color: white;
+}
+
+#mareComponent{
+    position: absolute;
+    /*z-index: 99999;*/
+    z-index: 1112;
+    background-color: rgba(220,220,220,0.8);
+    /*max-height: 95vh;*/
+    overflow: auto;
+}
+
+.vld-overlay .vld-icon, .vld-parent{
+    position: initial!important;
+}
+.vld-overlay{
+    padding-top: 40vh!important;
+    align-items: start!important;
+}
+
+.component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity .3s ease;
+}
+.component-fade-enter, .component-fade-leave-to
+/* .component-fade-leave-active avant la 2.1.8 */ {
+  opacity: 0;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.list-perso-enter-active, .list-perso-leave-active {
+  transition: all 1s;
+}
+.list-perso-enter, .list-perso-leave-to /* .list-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+/*.bloc-historique{
+    padding-bottom: 0!important;
+    padding-top: 0!important;
+}*/
+
+.tab-list-perso{
+	/*display: flex;*/
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tab-list-perso{
+	color: white;
+    background-color: #c51f1a;
+    /*border-color: #dee2e6 #dee2e6 #f8fafc;*/
+    /*border-color: #e9ecef #e9ecef #dee2e6;*/
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 1px solid #dee2e6;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    margin-bottom: -1px;
+    width: 25%;
+}
+
+.tab-list-perso .form-inline{
+	border-top: 1px solid #dee2e6;
+	border-left: 1px solid #dee2e6;
+	border-right: 1px solid #dee2e6;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.champ-obligatoire{
+    border-color: #f5c6cb!important;
+    background-color: #f5c6cb!important;
+}
+
+.vdp-datepicker__calendar .cell.highlighted{
+    background-color: transparent!important;
+    border-color: #e3342f!important;
+}
+
+.vdp-datepicker__calendar {
+    position: absolute!important;
+    right: 0px!important;
+}
+
+#datepicker_memo .vdp-datepicker__calendar {
+    position: absolute!important;
+    left: 0px!important;
+}
+
+.vdp-datepicker .input-group .form-control[readonly] {
+    background: none !important;
+    border:0;
+}
+
+.card-header-perso{
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #3490dc !important;
+    color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px);
+    /*width: 25%;*/
+}
+
+.time-picker{
+    border-radius: 0.25rem;
+    height: calc(1.6em + 0.75rem + 2px)!important;
+    color: #495057;
+    width: 100%!important;
+}
+
+.time-picker .controls{
+    margin-right: 36px;
+    display: flex;
+    align-items: center;
+    padding: 0.275rem 0.5rem;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+}
+
+.time-picker .controls .char{
+    color: #495057;
+}
+
+.time-picker:focus{
+    /*color: red;*/
+}
+
+.input-group-text{
+    margin-bottom: 1px!important;
+    border-radius: 0!important;
+    margin-top: -1px!important;
+}
+
+.input-group-text i{
+    font-style: normal!important;
+}
+
+.custom-file:hover{
+    cursor: pointer!important;
+}
+
+.custom-file-input:hover{
+    cursor: pointer!important;
+}
+
+.custom-file-label:hover{
+    cursor: pointer!important;
+}
+
+#customFile{
+    text-indent: -999px;
+}
+
+.custom-file-label::after{
+    content: "Rechercher"!important;
+}
+
+.btn-orange{
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.btn-orange:hover{
+    color: #fff;
+    background-color: #cf9544;
+    border-color: #cf9544;
+}
+
+.delete_destinataire:hover{
+    cursor: pointer;
+}
+
+.btn-link-red{
+    font-weight: 400;
+    color: #d0211c;
+    text-decoration: none
+}
+
+#overlay{
+    z-index:1000;
+    height:100%;
+    background-color: rgba(255,255,255,0.7);
+    top:0;
+    left:0;
+}
+#bouton_filtre_carte{
+    display: none;
+}
+
+.dashboard_icones i.fas {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.8em 0.9em;
+
+}
+
+.widget-en-tete-header{
+    color: rgba(31,10,6,0.6);
+    /*background-color: #fff;*/
+}
+
+.widget-chart{
+    align-items: center;
+}
+
+.widget-chart.text-left .widget-chart-content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex: 1;
+    position: relative;
+}
+
+.widget-chart .widget-subheading{
+    margin: -0.5rem 0 0;
+    display: block;
+    opacity: .6;
+}
+
+.widget-chart .widget-numbers{
+    font-weight: bold;
+    font-size: 2.5rem;
+    display: block;
+    line-height: 1;
+    margin: 1rem auto;
+}
+
+.widget-total-mare{
+    font-size: 2rem;
+}
+
+.widget-mes-mares-fiches-icone{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.widget-mare-fiche-number{
+    align-items: center;
+}
+
+.fsize-4{
+    font-size: 2rem !important;
+}
+
+.card-btm-border {
+    border-bottom: transparent solid 4px!important;
+}
+
+
+.image_helophytes{
+    max-width: 202px;
+}
+.image_hydrophytes_enracines{
+    max-width: 599px;
+}
+.image_hydrophytes_non_enracines{
+    max-width: 146px;
+}
+.image_algues{
+    max-width: 150px;
+}
+.image_eau_libre{
+    max-width: 129px;
+}
+.image_fond_exonde{
+    max-width: 138px;
+}
+.total_vegetation{
+    max-width: 100px;
+}
+
+.p-perso-09{
+    padding: 0.09rem!important;
+}
+
+.input-group-text{
+    background-color: white!important;
+    border: none!important;
+    border-radius: 0!important;
+}
+
+.message-card{
+    display: inline-flex;
+    /*margin: 2px 15px;*/
+    width: calc(100% - 30px);
+}
+.message-card p{
+    margin: 0;
+    padding: 6px 15px;
+    padding-bottom: 5px;
+    max-width: 80%;
+    border-radius: 10px;
+    word-break: break-word;
+    border: 0.1px solid rgba(50, 50, 50, 0.3);
+}
+.message-card p sub {
+    display: inline-block;
+    font-size: 11px;
+}
+
+.message-card-validateur{
+
+}
+
+.message-card-utilisateur{
+    direction: rtl;
+}
+
+.modal-perso{
+    max-height: 600px;
+}
+
+.btn-orange{
+    color: #fff!important;
+    background-color: #F37E0E!important;
+    border-color: #F37E0E!important;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%)!important;
+}
+
+.btn-orange:hover{
+    color: #fff;
+    background-color: #a35912!important;
+    border-color: #a35912!important;
+}
+
+.multiselect__tags{
+    font-size: 12px!important;
+}
+
+.autocomplete__box{
+    padding: 4px!important;
+    padding-left: 10px!important;
+}
+
+@media (max-width: 1785px){
+    .image_helophytes{
+        max-width: 150px;
+    }
+    .image_hydrophytes_enracines{
+        max-width: 445px;
+    }
+    .image_hydrophytes_non_enracines{
+        max-width: 108.5px;
+    }
+    .image_algues{
+        max-width: 111.4px;
+    }
+    .image_eau_libre{
+        max-width: 95.8px;
+    }
+    .image_fond_exonde{
+        max-width: 102.5px;
+    }
+}
+
+@media (max-width: 1410px ){
+    .image_helophytes{
+        max-width: 132px;
+    }
+    .image_helophytes img{
+        height: 235px;
+    }
+    .image_hydrophytes_enracines{
+        max-width: 392px;
+    }
+    .image_hydrophytes_enracines img{
+        height: 235px;
+    }
+    .image_hydrophytes_non_enracines{
+        max-width: 96px;
+    }
+    .image_hydrophytes_non_enracines img{
+        height: 235px;
+    }
+    .image_algues{
+        max-width: 99px;
+    }
+    .image_algues img{
+        height: 236px;
+    }
+    .image_eau_libre{
+        max-width: 85px;
+    }
+    .image_eau_libre img{
+        height: 236px;
+    }
+    .image_fond_exonde{
+        max-width: 91px;
+    }
+    .image_fond_exonde img{
+        height: 236px;
+    }
+}
+
+@media (max-width: 430px){
+    #filtre_carte_component{
+        display: none;
+    }
+    .leaflet-top.leaflet-left{
+      margin-top: 50px;
+    }
+
+    #bouton_filtre_carte{
+        display: block;
+        width: auto;
+    }
+
+    #bloc_filtre{
+        left: 0px!important;
+        bottom: 10px;
+        position: absolute;
+        width: auto;  
+    }
+
+    .image_helophytes{
+        text-align: center;
+        max-width: 100%!important;
+        width: 100%;
+    }
+    .image_helophytes img{
+        /*max-width: 100%!important*/
+    }
+    .image_hydrophytes_enracines{
+        text-align: center;
+        max-width: 100%!important;
+        width: 100%;
+    }
+    .image_hydrophytes_enracines img{
+        /*height: 235px;*/
+    }
+    .image_hydrophytes_non_enracines{
+        text-align: center;
+        max-width: 100%!important;
+        width: 100%;
+    }
+    .image_hydrophytes_non_enracines img{
+        /*height: 235px;*/
+    }
+    .image_algues{
+        text-align: center;
+        max-width: 100%!important;
+        width: 100%;
+    }
+    .image_algues img{
+        /*height: 236px;*/
+    }
+    .image_eau_libre{
+        text-align: center;
+        max-width: 100%!important;
+        width: 100%;
+    }
+    .image_eau_libre img{
+        /*height: 236px;*/
+    }
+    .image_fond_exonde{
+        text-align: center;
+        max-width: 100%!important;
+        width: 100%;
+    }
+    .image_fond_exonde img{
+        /*height: 236px;*/
+    }
+
+    .widget-total-mare {
+        font-size: 1rem;
+    }
+
+    #bloc_aide ul{
+        padding: 10px;
+    }
+}
+
+
+.multiselect.is-invalid{
+    border-color: #e3342f;
+    border: 1px solid #e3342f!important;
+    border-radius: 5px;
+    /*padding-right: calc(1.6em + 0.75rem) !important;*/
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23e3342f' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23e3342f' stroke='none'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right calc(2em + 0.1875rem) center;
+    background-size: calc(0.8em + 0.375rem) calc(0.8em + 0.375rem);
+}
+
+.multiselect.is-invalid .multiselect__tags{
+    /*min-height: 40px;*/
+    /*display: block;*/
+    /*padding: 8px 40px 0 8px;*/
+     /*border-radius: 5px; */
+     border: none!important; 
+     background: transparent!important; 
+    /*font-size: 14px;*/
+}
+
+.height-fit-content {
+    height: fit-content!important;
+}
+
+.text-reset h1, .text-reset h2, .text-reset h3, .text-reset h4, .text-reset h5, .text-reset h6, .text-reset p{
+    color: inherit !important;
+}
