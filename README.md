@@ -1,5 +1,7 @@
 # PRAM
 
+Le git original de l'application est en accessible en mode privé. Ce dépôt est une copie et n'a pas été développé par mes soins. 
+
 Application cartographique du PRAM Grand Est 
 
 - [License](#license)
